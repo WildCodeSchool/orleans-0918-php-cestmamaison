@@ -30,7 +30,7 @@ $routes = [
 
         ['add', '/admin/brand/add', ['GET', 'POST']], // action, url, method
     ],
-    'Visitor'=>[
-        ['index','/contact',['Get']],
+    'Contact' => [
+        ['index','/visitor/contact', 'GET'],
     ],
 ];

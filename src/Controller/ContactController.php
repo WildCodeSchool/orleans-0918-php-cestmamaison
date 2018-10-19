@@ -9,10 +9,10 @@
 namespace Controller;
 
 
-class ContactController
+class ContactController  extends AbstractController
 {
     public function index()
     {
-        return $this->twig->render('Contact/index.html.twig');
+        return $this->twig->render('/Visitor/Contact/index.html.twig');
     }
 }
